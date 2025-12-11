@@ -14,13 +14,53 @@
         compatible = "zmk,combos";
 
         num1 {
-            bindings = <&kp N1>;
+            bindings = <&kp NUMBER_1>;
             key-positions = <0 1>;
         };
 
         num2 {
-            bindings = <&kp N2>;
-            key-positions = <3 2>;
+            bindings = <&kp NUMBER_2>;
+            key-positions = <1 2>;
+        };
+
+        num3 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <2 3>;
+        };
+
+        num4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <3 4>;
+        };
+
+        num5 {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <4 5>;
+        };
+
+        num6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <5 6>;
+        };
+
+        num7 {
+            bindings = <&kp NUMBER_7>;
+            key-positions = <6 7>;
+        };
+
+        num8 {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <7 8>;
+        };
+
+        num9 {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <8 9>;
+        };
+
+        num0 {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <9 10>;
         };
     };
 
